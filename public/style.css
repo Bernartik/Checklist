@@ -1,0 +1,120 @@
+/*
++Todo
+-adjust stuff to look good once main part has been setup
+-leave it off for now while the site functions are being set
+*/
+h1 {
+    position:relative;
+    align-self: center;
+    color: black;
+    text-align: center;
+    font-size: 32pt;
+    
+}
+
+#addbutton {
+    position:relative;
+    align-self: center;
+    transition-duration: 0.2s;
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    margin: 0px auto;
+    border: 3px solid white;
+}
+
+#addbutton:hover {
+    background-color: rgb(0, 149, 207);
+    color: white;
+}
+
+
+#addbutton:active {
+    transition-duration: 0.005s;
+    background-color:white;
+    color: aqua;
+    border: 3px solid rgb(0, 149, 207);
+}
+/*
+#savebutton {
+    position:relative;
+    align-self: center;
+    transition-duration: 0.2s;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    margin: 0px auto;
+    border: 3px solid white;
+}
+
+#savebutton:hover {
+    background-color: rgb(36, 219, 19);
+    color: white;
+}
+
+
+#savebutton:active {
+    transition-duration: 0.005s;
+    background-color:white;
+    color: greenyellow;
+    border: 3px solid rgb(36, 219, 19);
+}
+*/
+#taskdiv {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    /*
+    border: 3px solid black;
+    */
+    
+}
+
+
+.deletebutton {
+    position: relative;
+    top: -12px;
+    transition-duration: 0.2s;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 50%;
+    border: 3px solid white;
+    height:42px;
+    width:42px;
+}
+.deletebutton:hover {
+    background-color: rgb(211, 0, 98);
+    color: white;
+}
+.deletebutton:active {
+    transition-duration: 0.005s;
+    border: 3px solid rgb(211, 0, 98);
+    background-color: white;
+    color: red;
+}
+.checkbox {
+    position: relative;
+    top: -3px;
+    height: 36px;
+    width: 36px;
+    border: 2px solid white;
+}
+.tasktext {
+    position: relative;
+    top: 3px;
+    background-color:white;
+    border: 1px solid gray;
+}
